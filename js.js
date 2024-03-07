@@ -7,7 +7,7 @@ document.getElementById("save_form").addEventListener("click", function (e) {
     brand: document.getElementById("brand.text").value,
   };
   fetch("https://dummyjson.com/products/add",{
-    method: "PUT",
+    method: "post",
     body: JSON.stringify(obj),
     headers: {
       "content-type": "application/json; charset=UTF-8",
