@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DummyJSON Api</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <ul class="navbar">
+        <li><a href="Home">Home</a></li>
+        <li><a href="About Us">About Us</a></li>
+        <li><a href="Product">Product</a></li>
+        <li><a href="Customers">Customers</a></li>
+      </ul>
+      <div class="f_btn">
+        <button onclick="add()">Add Product</button>
+        <button onclick="add()" class="s_btn">Remove</button>
+      </div>
+    </header>
+    <form class="container">
+      <input type="text" id="userid" placeholder="Id" />
+      <input type="text" id="title.text" placeholder="Title" />
+      <input type="text" id="price.text" placeholder="Price" />
+      <input type="text" id="brand.text" placeholder="Brand" />
+      <input type="submit" id="save_form">
+    </form>
+    <script src="./js.js"></script>
+  </body>
+</html>
